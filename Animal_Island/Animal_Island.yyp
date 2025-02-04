@@ -34,7 +34,10 @@
   },
   "name":"Animal_Island",
   "resources":[
+    {"id":{"name":"obj_Jodie","path":"objects/obj_Jodie/obj_Jodie.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_jodie_idle","path":"sprites/spr_jodie_idle/spr_jodie_idle.yy",},},
+    {"id":{"name":"spr_jodie_walk","path":"sprites/spr_jodie_walk/spr_jodie_walk.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
