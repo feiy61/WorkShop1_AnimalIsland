@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,14 +35,17 @@
   "name":"Animal_Island",
   "resources":[
     {"id":{"name":"obj_Jodie","path":"objects/obj_Jodie/obj_Jodie.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_Lion","path":"objects/obj_Lion/obj_Lion.yy",},},
+    {"id":{"name":"level4CodingmakeNoChangeHere","path":"rooms/level4CodingmakeNoChangeHere/level4CodingmakeNoChangeHere.yy",},},
+    {"id":{"name":"spr_eagle_placehoder","path":"sprites/spr_eagle_placehoder/spr_eagle_placehoder.yy",},},
     {"id":{"name":"spr_jodie_idle","path":"sprites/spr_jodie_idle/spr_jodie_idle.yy",},},
     {"id":{"name":"spr_jodie_walk","path":"sprites/spr_jodie_walk/spr_jodie_walk.yy",},},
+    {"id":{"name":"spr_lion_placehoder","path":"sprites/spr_lion_placehoder/spr_lion_placehoder.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"level4CodingmakeNoChangeHere","path":"rooms/level4CodingmakeNoChangeHere/level4CodingmakeNoChangeHere.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
