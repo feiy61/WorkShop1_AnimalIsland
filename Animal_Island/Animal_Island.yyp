@@ -34,10 +34,12 @@
   },
   "name":"Animal_Island",
   "resources":[
+    {"id":{"name":"obj_hawk_null","path":"objects/obj_hawk_null/obj_hawk_null.yy",},},
+    {"id":{"name":"obj_Jodie_Throw_Rocks_null","path":"objects/obj_Jodie_Throw_Rocks_null/obj_Jodie_Throw_Rocks_null.yy",},},
     {"id":{"name":"obj_Jodie","path":"objects/obj_Jodie/obj_Jodie.yy",},},
     {"id":{"name":"obj_Lion","path":"objects/obj_Lion/obj_Lion.yy",},},
     {"id":{"name":"level4CodingmakeNoChangeHere","path":"rooms/level4CodingmakeNoChangeHere/level4CodingmakeNoChangeHere.yy",},},
-    {"id":{"name":"spr_eagle_placehoder","path":"sprites/spr_eagle_placehoder/spr_eagle_placehoder.yy",},},
+    {"id":{"name":"spr_hawk_placehoder","path":"sprites/spr_hawk_placehoder/spr_hawk_placehoder.yy",},},
     {"id":{"name":"spr_jodie_idle","path":"sprites/spr_jodie_idle/spr_jodie_idle.yy",},},
     {"id":{"name":"spr_jodie_walk","path":"sprites/spr_jodie_walk/spr_jodie_walk.yy",},},
     {"id":{"name":"spr_lion_placehoder","path":"sprites/spr_lion_placehoder/spr_lion_placehoder.yy",},},
