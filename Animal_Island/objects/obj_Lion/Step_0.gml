@@ -1,41 +1,28 @@
-// 巡逻逻辑
-function patrol() {
-    x += speed * direction;
-}
 
-// 检测玩家并冲向玩家逻辑
-function chase_player(player) {
-    if (x < player.x) {
-        x += chase_speed;
-    } else {
-        x -= chase_speed;
+var player_distance = point_distance(x, y, obj_Jodie.x, obj_Jodie.y);
+
+
+if (player_distance < detection_range) {
+    
+    var dir = point_direction(x, y, obj_Jodie.x, obj_Jodie.y);
+    
+    x += lengthdir_x(chase_speed, dir);
+    y += lengthdir_y(chase_speed, dir);
+} else {
+   
+    x += patrol_speed * patrol_direction;
+
+   
+    if (abs(x - patrol_start_x) > patrol_range) {
+        patrol_direction *= -1;
     }
-
-    if (y < player.y) {
-        y += chase_speed;
-    } else {
-        y -= chase_speed;
-    }
-}
-
-// 检测玩家是否在追击范围内
-function detect_player(player) {
-    return (abs(x - player.x) < chase_range && abs(y - player.y) < chase_range);
 }
 
 
 
+if (patrol_direction == 1) {
+    image_xscale = 1; 
 
-var player = instance_nearest(x, y, obj_Jodie); // 假设玩家对象的名称为obj_player
-
-if (state == "patrol") {
-    patrol();
-    if (detect_player(player)) {
-        state = "chase";
-    }
-} else if (state == "chase") {
-    chase_player(player);
-    if (!detect_player(player)) {
-        state = "patrol";
-    }
+} else {
+    image_xscale = -1; 
 }
