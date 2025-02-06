@@ -1,4 +1,4 @@
-// initial moving is 0
+// walk funtion:
 hsp = 0;
 
 image_speed = 1;
@@ -24,3 +24,14 @@ if (hsp != 0) {
 } else {
     sprite_index = spr_jodie_idle; 
 }
+
+
+//spraying placeholder
+if (keyboard_check(key_spray)) {
+    
+	
+	
+}
+
+
+//throwing rocks placeholder
