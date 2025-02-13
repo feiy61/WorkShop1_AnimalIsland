@@ -27,18 +27,22 @@ if (hsp != 0) {
     sprite_index = spr_jodie_idle; 
 }
 
- //jumping placeholder - work pending..sadie
- if !place_meeting(x, y + 1, obj_greybox)
-{
-	if keyboard_check(vk_space) vsp = -jump_speed;
-    gravity = 0.01;
-}
-else
-{
-    gravity = 0;
-}
- 
 
+
+//jumping 
+
+if keyboard_check(vk_space) 
+	{
+		vsp = -jump_speed;
+		gravity = 0.01;
+		if !place_meeting(x, y + 1, obj_greybox)
+		{
+			gravity = 0;
+		}
+	}
+
+
+y+= vsp;
 
 
 
