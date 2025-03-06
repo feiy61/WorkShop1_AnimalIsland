@@ -55,7 +55,7 @@ if (keyboard_check(key_spray))  && (cooldown < 1) {
     
 	instance_create_layer(x, y, "_Spray", obj_spray);
 
-	cooldown = 50;
+	cooldown = 60;
 	
 }
 
