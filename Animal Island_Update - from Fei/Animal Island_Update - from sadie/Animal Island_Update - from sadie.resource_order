@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings":[
+    {"name":"greyboxing ground","order":4,"path":"folders/Objects/greyboxing ground.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_Game","order":8,"path":"objects/obj_Game/obj_Game.yy",},
+    {"name":"Obj_hidingH","order":9,"path":"objects/Obj_hidingH/Obj_hidingH.yy",},
+    {"name":"obj_hole","order":5,"path":"objects/obj_hole/obj_hole.yy",},
+    {"name":"obj_Rock","order":1,"path":"objects/obj_Rock/obj_Rock.yy",},
+    {"name":"obj_spray","order":2,"path":"objects/obj_spray/obj_spray.yy",},
+    {"name":"obj_Trees","order":6,"path":"objects/obj_Trees/obj_Trees.yy",},
+    {"name":"obj_Trees2","order":7,"path":"objects/obj_Trees2/obj_Trees2.yy",},
+    {"name":"Room2Saferoom","order":1,"path":"rooms/Room2Saferoom/Room2Saferoom.yy",},
+    {"name":"ground","order":4,"path":"sprites/ground/ground.yy",},
+    {"name":"hole","order":5,"path":"sprites/hole/hole.yy",},
+    {"name":"Rock","order":1,"path":"sprites/Rock/Rock.yy",},
+    {"name":"spr_lion_placehoder_stun","order":2,"path":"sprites/spr_lion_placehoder_stun/spr_lion_placehoder_stun.yy",},
+    {"name":"Spr_Spray_mask","order":8,"path":"sprites/Spr_Spray_mask/Spr_Spray_mask.yy",},
+    {"name":"Spr_Spray","order":3,"path":"sprites/Spr_Spray/Spr_Spray.yy",},
+    {"name":"SpTree_placeholder","order":7,"path":"sprites/SpTree_placeholder/SpTree_placeholder.yy",},
+    {"name":"Ssafe","order":6,"path":"sprites/Ssafe/Ssafe.yy",},
+  ],
+}
