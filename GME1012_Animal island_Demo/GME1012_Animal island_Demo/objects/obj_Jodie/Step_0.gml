@@ -31,13 +31,13 @@ if (hsp != 0) {
 
 //jumping 
 
-if keyboard_check(vk_space) 
+if keyboard_check_pressed(vk_space) 
 	{
-		vsp = -jump_speed;
-		gravity = 0.01;
+		vsp =- jump_speed;
+		
 		if !place_meeting(x, y + 1, obj_greybox)
 		{
-			gravity = 0;
+			
 		}
 	}
 
