@@ -1,0 +1,8 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"level01_tree_hawk","order":1,"path":"rooms/level01_tree_hawk/level01_tree_hawk.yy",},
+    {"name":"level02_bush_lion","order":2,"path":"rooms/level02_bush_lion/level02_bush_lion.yy",},
+    {"name":"SpBush_placeholder","order":1,"path":"sprites/SpBush_placeholder/SpBush_placeholder.yy",},
+  ],
+}
