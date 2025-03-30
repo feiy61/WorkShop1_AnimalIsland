@@ -1,0 +1,1 @@
+hawkAttacked = false;

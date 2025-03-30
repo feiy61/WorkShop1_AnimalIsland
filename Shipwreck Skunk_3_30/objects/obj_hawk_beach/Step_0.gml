@@ -1,7 +1,8 @@
 
 if (instance_exists(obj_Jodie)) { // Check if the player exists
     var _player_distance = point_distance(x, y, obj_Jodie.x, obj_Jodie.y);
-    if (_player_distance < attack_range && hawkIsBlind == false) 
+   
+   if (_player_distance < attack_range && hawkIsBlind == false && hawkAttacked == false) 
 	{
         // Code for attacking the Jodie,
         spr_flying = true;
@@ -16,10 +17,23 @@ if (instance_exists(obj_Jodie)) { // Check if the player exists
                 }
 	   
 	   
-	   x += lengthdir_x(move_speed, dir_to_player);
+	    x += lengthdir_x(move_speed, dir_to_player);
         y += lengthdir_y(move_speed, dir_to_player);
 		sprite_index = Hawk_Divebomb;
-    } else {
+		
+		if (place_meeting(x, y, obj_Jodie)) 
+		{
+            
+            show_debug_message("HIT! Returning to patrol...");
+			hawkAttacked = true;
+			alarm[2] = 80;
+			
+        }
+		
+		
+    } 
+	
+	else {
         // when Player is not in range, don't attack and start perching on trees
         if (spr_flying) {
             // If flying, move to the nearest tree to perch
@@ -46,7 +60,8 @@ if (instance_exists(obj_Jodie)) { // Check if the player exists
                     y = target_tree.y - sprite_height / 2;
                 }
             }
-        } else if (perched) {
+        } 
+		else if (perched) {
             // When perched, wait for a while before flying to next tree
             if (alarm[0] == -1) {
                 alarm[0] = 30 * 2; // Set alarm for patrolling

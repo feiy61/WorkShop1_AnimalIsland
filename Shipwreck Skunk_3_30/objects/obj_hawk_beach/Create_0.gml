@@ -11,3 +11,4 @@ attack_range = 450;
 
 
 hawkIsBlind = false;
+hawkAttacked = false
