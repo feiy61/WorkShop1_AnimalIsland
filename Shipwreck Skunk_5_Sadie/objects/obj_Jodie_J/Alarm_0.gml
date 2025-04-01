@@ -1,1 +1,0 @@
-isAttack = false;
