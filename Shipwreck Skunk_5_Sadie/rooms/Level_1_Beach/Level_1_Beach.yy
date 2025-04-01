@@ -167,7 +167,11 @@
   "sequenceId":null,
   "views":[
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"hborder":800,"hport":1000,"hspeed":-1,"hview":1000,"inherit":false,"objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"vborder":500,"visible":true,"vspeed":-1,"wport":1600,"wview":1600,"xport":0,"xview":0,"yport":0,"yview":0,},
+=======
+    {"hborder":1200,"hport":366,"hspeed":-1,"hview":888,"inherit":false,"objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"vborder":920,"visible":true,"vspeed":-1,"wport":1266,"wview":1966,"xport":0,"xview":0,"yport":0,"yview":0,},
+>>>>>>> parent of 8a96e47 (commented out the windowsizeset)
 =======
     {"hborder":1200,"hport":366,"hspeed":-1,"hview":888,"inherit":false,"objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"vborder":920,"visible":true,"vspeed":-1,"wport":1266,"wview":1966,"xport":0,"xview":0,"yport":0,"yview":0,},
 >>>>>>> parent of 8a96e47 (commented out the windowsizeset)
