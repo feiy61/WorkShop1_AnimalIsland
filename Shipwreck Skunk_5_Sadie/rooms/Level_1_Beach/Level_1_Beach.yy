@@ -41,7 +41,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1F3D4859","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F3D4859","objectId":{"name":"obj_lifeSystem","path":"objects/obj_lifeSystem/obj_lifeSystem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.625,"scaleY":4.125,"x":511.0,"y":0.0,},
       ],"layers":[],"name":"_life","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"_Player","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_39EA92B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39EA92B","objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":293.1077,"y":876.72314,},
+        {"$GMRInstance":"v1","%Name":"inst_39EA92B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39EA92B","objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-5.215385,"scaleY":5.5538464,"x":293.1077,"y":876.72314,},
       ],"layers":[],"name":"_Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"_Rock","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_118F1DF9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_118F1DF9","objectId":{"name":"Obj_hidingH","path":"objects/Obj_hidingH/Obj_hidingH.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5803604,"scaleY":3.4592571,"x":4849.9663,"y":755.3038,},
@@ -166,7 +166,11 @@
   },
   "sequenceId":null,
   "views":[
+<<<<<<< HEAD
     {"hborder":800,"hport":1000,"hspeed":-1,"hview":1000,"inherit":false,"objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"vborder":500,"visible":true,"vspeed":-1,"wport":1600,"wview":1600,"xport":0,"xview":0,"yport":0,"yview":0,},
+=======
+    {"hborder":1200,"hport":366,"hspeed":-1,"hview":888,"inherit":false,"objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"vborder":920,"visible":true,"vspeed":-1,"wport":1266,"wview":1966,"xport":0,"xview":0,"yport":0,"yview":0,},
+>>>>>>> parent of 8a96e47 (commented out the windowsizeset)
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -177,7 +181,7 @@
   ],
   "viewSettings":{
     "clearDisplayBuffer":true,
-    "clearViewBackground":false,
+    "clearViewBackground":true,
     "enableViews":true,
     "inheritViewSettings":false,
   },
