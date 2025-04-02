@@ -28,7 +28,7 @@ if (instance_exists(obj_Jodie_B)) { // Check if the player exists
             show_debug_message("HIT! Returning to patrol...");
 			hawkAttacked = true;
 			alarm[2] = 80;
-			
+			sprite_index = Hawk
         }
 		
 		
@@ -90,7 +90,7 @@ if (instance_exists(obj_Jodie_B)) { // Check if the player exists
             if (point_distance(x, y, target_tree.x, target_tree.y) < 5) {
                 spr_flying = false;
                 perched = true;
-                sprite_index = perch_sprite; // Set to perched sprite
+                sprite_index = Hawk; // Set to perched sprite
                 x = target_tree.x;
                 y = target_tree.y - sprite_height / 2;
             }

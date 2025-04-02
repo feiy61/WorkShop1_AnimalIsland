@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"spriteHolders",
-    "path":"folders/Sprites/spriteHolders.yy",
+    "name":"level Jungle",
+    "path":"folders/Sprites/level Jungle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -49,6 +49,7 @@ if (place_meeting(x, y+1,  obj_greybox) )
 	{
 		jump_timer = 12;
 		isJumping = true;
+		sprite_index = Jodie_Jump
 	}
 	
 }
@@ -145,10 +146,7 @@ if (place_meeting(x, y, obj_Rock_collectable))
 
 //game fates
 
-if place_meeting(x, y, obj_hole)
-{
-	room_goto_next()
-}
+
 
 
 //die fate

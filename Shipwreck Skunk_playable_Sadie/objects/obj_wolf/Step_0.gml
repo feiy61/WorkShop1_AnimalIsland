@@ -9,6 +9,7 @@ if (player_distance < detection_range && wolfIsBlind == false)
     
     x += lengthdir_x(chase_speed, dir);
     y += lengthdir_y(chase_speed, dir);
+	sprite_index = Wolf_run
 } 
 else 
 {

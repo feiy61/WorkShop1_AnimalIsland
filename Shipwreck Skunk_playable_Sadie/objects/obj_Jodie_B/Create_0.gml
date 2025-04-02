@@ -1,7 +1,4 @@
-window_set_size(4266,968); //- level 1 //hopefully keeps the player in the window barrier
-window_set_size(5266, 988); // - level 2
-window_set_size(6966, 1268); // - level 3
-window_set_size(1900,800); //- boss level
+
 
 lifeLeft = 3;
 isAttack = false;

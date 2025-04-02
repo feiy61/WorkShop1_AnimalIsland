@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Rock",
-    "path":"sprites/Rock/Rock.yy",
+    "name":"newrock",
+    "path":"sprites/newrock/newrock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

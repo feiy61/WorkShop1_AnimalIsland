@@ -171,7 +171,7 @@ if (place_meeting(x, y, obj_Rock_collectable))
 
 //game fates
 
-if place_meeting(x, y, obj_hole)
+if place_meeting(x, y, obj_start)
 {
 	room_goto_next()
 }

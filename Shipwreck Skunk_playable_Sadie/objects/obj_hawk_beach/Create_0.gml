@@ -8,7 +8,7 @@ tree1 = instance_nearest(x, y, obj_Trees);
 tree2 = instance_nearest(x, y, obj_Trees2);
 target_tree = tree1;
 perched = false
-attack_range = 950;
+attack_range = 1000;
 
 
 hawkIsBlind = false;
