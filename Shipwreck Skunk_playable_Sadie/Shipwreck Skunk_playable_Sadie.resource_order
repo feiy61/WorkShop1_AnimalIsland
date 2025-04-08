@@ -12,8 +12,11 @@
     {"name":"Levelenders","order":5,"path":"folders/Sprites/System/Levelenders.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"End","order":2,"path":"fonts/End/End.yy",},
+    {"name":"Font4","order":16,"path":"fonts/Font4/Font4.yy",},
     {"name":"start","order":1,"path":"fonts/start/start.yy",},
     {"name":"bush","order":1,"path":"objects/bush/bush.yy",},
+    {"name":"Obj_End","order":17,"path":"objects/Obj_End/Obj_End.yy",},
     {"name":"obj_greybox_1","order":2,"path":"objects/obj_greybox_1/obj_greybox_1.yy",},
     {"name":"obj_greybox_Boss","order":1,"path":"objects/obj_greybox_Boss/obj_greybox_Boss.yy",},
     {"name":"obj_hawk_1","order":8,"path":"objects/obj_hawk_1/obj_hawk_1.yy",},

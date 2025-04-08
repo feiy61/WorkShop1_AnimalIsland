@@ -142,14 +142,14 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":568,
+    "Height":450,
     "inheritRoomSettings":false,
     "persistent":false,
     "Width":7226,
   },
   "sequenceId":null,
   "views":[
-    {"hborder":2200,"hport":920,"hspeed":-1,"hview":920,"inherit":false,"objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"vborder":920,"visible":true,"vspeed":-1,"wport":2200,"wview":2200,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":500,"hport":250,"hspeed":-1,"hview":500,"inherit":false,"objectId":{"name":"obj_Jodie_B","path":"objects/obj_Jodie_B/obj_Jodie_B.yy",},"vborder":500,"visible":true,"vspeed":-1,"wport":500,"wview":1000,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

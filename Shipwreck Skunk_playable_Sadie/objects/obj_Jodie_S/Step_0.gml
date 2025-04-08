@@ -47,7 +47,7 @@ if (place_meeting(x, y+1,  obj_greybox) )
     vsp = 0;
 	if (keyboard_check_pressed(vk_space) && !isJumping)
 	{
-		jump_timer = 12;
+		jump_timer = 16;
 		isJumping = true;
 	}
 	
@@ -110,7 +110,7 @@ if (place_meeting(x, y, Obj_hidingH))
 	// obj_wolf.wolfIsBlind = true;
 }
 
-if place_meeting(x, y, obj_hawk_jungle)
+if place_meeting(x, y, obj_hawk_savannah)
 {
 	if(obj_hawk_savannah.hawkIsBlind == false && isAttack == false)
 	{

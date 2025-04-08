@@ -45,9 +45,12 @@
   },
   "name":"Shipwreck Skunk_playable_Sadie",
   "resources":[
+    {"id":{"name":"End","path":"fonts/End/End.yy",},},
+    {"id":{"name":"Font4","path":"fonts/Font4/Font4.yy",},},
     {"id":{"name":"instruction","path":"fonts/instruction/instruction.yy",},},
     {"id":{"name":"start","path":"fonts/start/start.yy",},},
     {"id":{"name":"bush","path":"objects/bush/bush.yy",},},
+    {"id":{"name":"Obj_End","path":"objects/Obj_End/Obj_End.yy",},},
     {"id":{"name":"obj_greybox_1","path":"objects/obj_greybox_1/obj_greybox_1.yy",},},
     {"id":{"name":"obj_greybox_Boss","path":"objects/obj_greybox_Boss/obj_greybox_Boss.yy",},},
     {"id":{"name":"obj_greybox","path":"objects/obj_greybox/obj_greybox.yy",},},

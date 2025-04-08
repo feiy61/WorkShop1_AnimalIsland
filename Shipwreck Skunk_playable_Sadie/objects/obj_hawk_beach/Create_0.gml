@@ -1,4 +1,4 @@
-window_set_size(4266,968);
+//window_set_size(4266,968);
 
 
 spr_flying = true;

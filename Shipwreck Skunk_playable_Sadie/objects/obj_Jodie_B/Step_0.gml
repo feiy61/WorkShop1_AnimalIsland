@@ -47,7 +47,7 @@ if (place_meeting(x, y+1,  obj_greybox) )
     vsp = 0;
 	if (keyboard_check_pressed(vk_space) && !isJumping)
 	{
-		jump_timer = 12;
+		jump_timer = 16;
 		isJumping = true;
 		sprite_index = Jodie_Jump
 	}
