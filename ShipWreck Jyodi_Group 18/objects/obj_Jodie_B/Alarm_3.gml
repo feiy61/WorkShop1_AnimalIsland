@@ -1,0 +1,2 @@
+
+hasThrow = false;
