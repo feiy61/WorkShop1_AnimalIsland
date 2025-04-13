@@ -1,4 +1,4 @@
-
+sprite_index = Hawk
 
 if (instance_exists(obj_Jodie_B)) { // Check if the player exists
     var _player_distance = point_distance(x, y, obj_Jodie_B.x, obj_Jodie_B.y);

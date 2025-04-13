@@ -24,8 +24,8 @@ else
 
 
 if (patrol_direction == 1) {
-    image_xscale = -2.358744; 
+    image_xscale = -1.3; 
 
 } else {
-    image_xscale = 3; 
+    image_xscale = 1.2; 
 }
