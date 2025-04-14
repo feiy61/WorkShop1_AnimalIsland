@@ -120,7 +120,7 @@ if (place_meeting(x, y, Obj_hidingH))
 
 if place_meeting(x, y, obj_hawk_beach)
 {
-	if(obj_hawk_beach.hawkIsBlind == false && isAttack == false)
+	if(obj_hawk_beach.hawkIsBlind == false && obj_hawk_beach.hawkAttacked == false)
 	{
 		if(lifeLeft < 0)
 		{
@@ -130,8 +130,8 @@ if place_meeting(x, y, obj_hawk_beach)
 		else
 		{
 			lifeLeft --;
-			isAttack = true;
-			alarm[0] =60;
+			obj_hawk_beach.hawkAttacked = true;
+			alarm[0] =200;
 		}
 	}
 }

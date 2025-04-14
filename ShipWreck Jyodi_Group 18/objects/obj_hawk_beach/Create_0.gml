@@ -1,15 +1,11 @@
-//window_set_size(4266,968);
-
-
-spr_flying = true;
-perch_speed = 3;
 move_speed = 3;
-tree1 = instance_nearest(x, y, obj_Trees);
-tree2 = instance_nearest(x, y, obj_Trees2);
-target_tree = tree1;
-perched = false
+attack_speed = 6;
+patrol_range = 1000;
 attack_range = 1000;
-
-
+hawkAttacked = false;
 hawkIsBlind = false;
-hawkAttacked = false
+start_x = x;
+facing = 1;
+
+return_speed = 4;       // 返回空中的垂直速度
+normal_height = 100;    // 常规飞行高度
