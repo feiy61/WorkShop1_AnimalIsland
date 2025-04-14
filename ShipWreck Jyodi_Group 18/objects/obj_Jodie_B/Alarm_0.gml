@@ -1,1 +1,1 @@
-isAttack = false;
+obj_hawk_beach.hawkAttacked = false;
