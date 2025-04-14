@@ -29,6 +29,7 @@
     {"name":"obj_Jodie_Throw_Rocks_null","order":4,"path":"objects/obj_Jodie_Throw_Rocks_null/obj_Jodie_Throw_Rocks_null.yy",},
     {"name":"Obj_Log","order":21,"path":"objects/Obj_Log/Obj_Log.yy",},
     {"name":"Obj_LogFall","order":22,"path":"objects/Obj_LogFall/Obj_LogFall.yy",},
+    {"name":"Obj_Music","order":23,"path":"objects/Obj_Music/Obj_Music.yy",},
     {"name":"obj_Rock_collectable","order":7,"path":"objects/obj_Rock_collectable/obj_Rock_collectable.yy",},
     {"name":"obj_Rock_hide","order":12,"path":"objects/obj_Rock_hide/obj_Rock_hide.yy",},
     {"name":"obj_wolf","order":9,"path":"objects/obj_wolf/obj_wolf.yy",},
